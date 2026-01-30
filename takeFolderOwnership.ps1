@@ -1,3 +1,11 @@
+## tested
+
+### usage
+### in pwsh console started as admin
+### paste the above code
+### then run
+# Set-OwnerToCurrentUser "C:\WGARWOL\HE\Integrations\OneIB\ADO\Repos\OneIB"
+
 function Set-OwnerToCurrentUser {
     param(
         [Parameter(Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName)]
@@ -11,8 +19,3 @@ function Set-OwnerToCurrentUser {
     }
 }
 
-### usage
-### in pwsh console started as admin
-### paste the above code
-### then run
-# Set-OwnerToCurrentUser "C:\WGARWOL\HE\Integrations\OneIB\ADO\Repos\OneIB"
