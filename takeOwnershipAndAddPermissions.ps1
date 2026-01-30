@@ -1,3 +1,5 @@
+### not tested yet
+
 function Set-OwnerToCurrentUser {
     [CmdletBinding()]
     param(
